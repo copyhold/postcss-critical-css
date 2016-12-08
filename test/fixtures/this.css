@@ -4,3 +4,10 @@
   width: 100%;
   critical-filename: 'this.critical.actual.css';
 }
+@media screen and (min-width: 300px) {
+  .bar {
+    critical-selector: this;
+    color: green;
+    critical-filename: 'this.critical.actual.css';
+  }
+}

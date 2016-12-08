@@ -1,1 +1,1 @@
-.foo{color:red;width:100%}
+.foo{color:red;width:100%} @media screen and (min-width:300px){.bar{color:green;}}
